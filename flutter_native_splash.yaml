@@ -1,0 +1,45 @@
+flutter_native_splash:
+  color: "#FFFFFF"  # Set the background color of the splash screen to white
+  image: assets/images/splash.png  # Specify the path to your Rive file
+
+  # Additional parameters are commented out. Uncomment and modify them as needed.
+
+  # branding: assets/dart.png
+  # branding_mode: bottom
+  # color_dark: "#042a49"
+  # background_image_dark: "assets/dark-background.png"
+  # image_dark: assets/splash-invert.png
+  # branding_dark: assets/dart_dark.png
+
+  android_12:
+    image: assets/images/splash.png  # Specify the path to your Rive file
+    color: "#FFFFFF"  # Set the background color of the splash screen to white
+    icon_background_color: "#111111"
+    # branding: assets/dart.png
+    # image_dark: assets/android12splash-invert.png
+    # color_dark: "#042a49"
+    # icon_background_color_dark: "#eeeeee"
+
+  # Specify platform-specific parameters if needed
+  # android: false
+  # ios: false
+  # web: false
+
+  # Specify platform-specific images and backgrounds if needed
+  # color_android: "#42a5f5"
+  # color_dark_android: "#042a49"
+  # image_android: assets/splash-android.png
+  # image_dark_android: assets/splash-invert-android.png
+  # background_image_android: "assets/background-android.png"
+
+  # Specify the position of the splash image
+  # android_gravity: center
+  # ios_content_mode: center
+  # web_image_mode: center
+
+  # Specify other parameters as needed
+  # android_screen_orientation: sensorLandscape
+  # fullscreen: true
+  # info_plist_files:
+  #   - 'ios/Runner/Info-Debug.plist'
+  #   - 'ios/Runner/Info-Release.plist'
